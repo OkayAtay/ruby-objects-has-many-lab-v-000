@@ -14,6 +14,10 @@ attr_accessor :name, :artist, :artist_name
   end
 
   def artist_name
+    if condition
+      
+    
     self.artist_name = self.artist.name
+  end
   end
 end
