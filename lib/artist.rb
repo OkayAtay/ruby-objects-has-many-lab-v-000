@@ -23,7 +23,7 @@ attr_accessor :name, :songs
 
 
   def self.song_count
-    total = songs.count
+    total = self.songs.count
   end
   binding.pry
 end
