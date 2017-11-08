@@ -20,5 +20,5 @@ attr_accessor :name
     song = Song.new(song)
     @songs << song
   end
-  
+
 end

@@ -2,7 +2,7 @@ class Song
 
 attr_accessor :name, :artist
 
-  def initalize(name)
+  def initalize
     @name=name
     @artist=Artist
   end
