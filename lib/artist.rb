@@ -21,7 +21,7 @@ attr_accessor :name, :songs
     song.artist = self
   end
 
-  binding.pry
+  #binding.pry
   def self.song_count
     self.songs.count
   end
