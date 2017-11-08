@@ -4,6 +4,7 @@ class Author
 
   def initalize(name)
     @name=name
+    @posts=[]
 
   end
 end
