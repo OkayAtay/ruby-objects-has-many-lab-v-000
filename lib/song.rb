@@ -15,4 +15,5 @@ attr_accessor :name, :artist, :artist_name
 
   def artist_name
     self.artist_name = artist.name
+  end
 end
