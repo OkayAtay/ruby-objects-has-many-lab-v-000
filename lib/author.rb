@@ -19,6 +19,7 @@ class Author
     post = Post.new(post)
     @posts << post
     @@post_count +=1
+    post.author = self
 
   end
 
