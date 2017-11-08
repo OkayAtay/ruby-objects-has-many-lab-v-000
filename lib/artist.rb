@@ -25,7 +25,6 @@ attr_accessor :name, :songs
   def self.song_count
     binding.pry
     total = self.songs.count
-
   end
 
 end
