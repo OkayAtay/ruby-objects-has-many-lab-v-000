@@ -6,4 +6,5 @@ class Author
     @name=name
     @posts=[]
   end
+
 end
